@@ -1,0 +1,116 @@
+*{
+    margin: 80;
+    padding: 80;
+}
+
+.redButton {
+    display:flex;
+    height: 5vh;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4vh;
+}
+.blackButton {
+    display:flex;
+    height: 5vh;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4vh;
+}
+.headerGame {
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10vh;
+}
+.buttonBody {
+    display: flex;
+    height:5vh;
+    width:70w;
+    align-items: row;
+    justify-content: space-evenly;
+    
+}
+.playerScore {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+}
+.score {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+}
+.cardDisplay {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-content: center;
+}
+.cardDiv {
+    display: flex;
+    height: 30vh;
+    width: 33vw;
+    justify-content: center;
+    align-items: center;
+}
+.gameBody {
+    display: flex;
+    height:30vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: space;
+}
+.answer {
+    display: flex;
+    height:30vh;
+    width: 33vw;
+    justify-content: center;
+    align-items: center;
+}
+.livesRemaining {
+    display: flex;
+    height: 30vh;
+    width: 30vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.correct {
+    display: none;
+    height: 10vh;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.loseLife {
+    display: none;
+    height: 10vh;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.instructions {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
